@@ -1,1 +1,1 @@
-rccr website in construction
+http://www.rc-cr.org/
