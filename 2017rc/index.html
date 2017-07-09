@@ -1,15 +1,26 @@
 <!DOCTYPE html>
 
 <head>
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
 <title>Reed College Creative Review</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+<!-- Describe this page for search engines -->
+<meta name="description" content="The Creative Review is Reed College's literary magazine. Every year, at the end of the spring semester, we publish an issue that highlights the best poetry, short fiction, photography and visual art of the Reed student body. We also publish
+digital media submissions via this website."> 
+<!-- Character set for English and similar languages -->
+ <meta charset="utf-8">
+ <!-- Helps with rendering on mobile devices -->
+ <meta name="viewport" content="width=device-width">
+<!-- Link to external style sheet -->
+<link href="style.css" rel="stylesheet" type="text/css" >
 </head>
 <body>
+<script>
+//Make older browsers aware of new HTML5 layout tags
+'header nav aside article footer section figure figcaption'.replace(/\w+/g, function (n) { document.createElement(n) })
+</script>
 
 <div class="columns">
-<!-- This is the menu on the left.
--->
+
+<!-- This is the menu on the left -->
 <nav>
 <ul class="rccr">RCCR</ul>
 <ul class="menu">
@@ -21,6 +32,7 @@
 </ul>
 </nav>
 
+<!-- Article is the main content of the page -->
 <article>
 <!-- This contains all the image links
      The classes c1, c2, c3 refer to the columns they are in.
