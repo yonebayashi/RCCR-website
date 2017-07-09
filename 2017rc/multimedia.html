@@ -1,0 +1,53 @@
+<!HTML>
+<html>
+<head>
+<title>Reed College Creative Review</title>
+<style>
+h2{margin:-48px 0px 0px 0px;}
+</style>
+<link rel="stylesheet" type="text/css" href="multimedia.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="playlist.js"></script>
+</head>
+
+<body>
+<div id="leftMenu">
+<!-- This is the menu on the left.
+-->
+<ul class="rccr">RCCR</ul>
+<ul class="menu">
+ <li class="selected"><a href="index.html">Home</a></li>
+  <li><a href="2017cr.pdf" title="PDF of the 2017 issue">Current issue</a></li>
+  <li><a href="mailto:editors@rc-cr.org">Contact</a></li>
+<li><a href="https://reedcreativereview.submittable.com/submit">Submissions</a></li>
+<li><a href="multimedia.html">Multimedia</a></li>
+</ul>
+</div>
+
+<div class="container">
+    <div class="column center"></div>
+
+    <div class="column add-bottom">
+        <div id="mainwrap">
+
+            <div id="nowPlay">
+                <h1 class="center">2017 Selections</h1>
+                <span class="left" id="npAction">Paused...</span>
+                <span class="right" id="npTitle"></span>
+            </div>
+            <div id="audiowrap">
+                <div id="audio0">
+                    <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
+                </div>
+                <div id="tracks">
+                    <a id="btnPrev">&laquo;</a>
+                    <a id="btnNext">&raquo;</a>
+                </div>
+            <div id="plwrap">
+                <ul id="plList"></ul>
+            </div>
+        </div>
+
+</div>
+</body>
+</html>

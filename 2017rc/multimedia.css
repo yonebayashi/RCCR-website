@@ -1,0 +1,160 @@
+body {
+  margin: 0; }
+
+/* Container for the menu
+================================================== */
+
+#leftMenu {
+  width: 200px;
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  color: white;
+  }
+
+/* Attributes of the left menu itself
+================================================== */
+
+.menu {
+  list-style-type: none;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+  margin: 0em;
+  padding: 0em .8em;
+  line-height: 32px }
+  .menu a {
+    color: white;
+    text-decoration: none; }
+
+.rccr {
+  list-style-type: none;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  color: white;
+  margin: .8em 0em .1em .5em;
+  padding-bottom: 19;
+  }
+
+/* Font Family
+================================================== */
+
+@import url("//fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400");
+
+/* Links
+================================================== */
+
+a,a:visited { color:#ddd; outline:0; text-decoration:underline; }
+a:hover,a:focus { color:#bbb; }
+p a,p a:visited { line-height:inherit; }
+
+/* Screen config
+================================================== */
+
+/* Desktop */
+
+.container { position:relative; margin:0 150 auto; width:700px; }
+.column { width:inherit; }
+
+/* Tablet (Portrait) */
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.container { width:556px; }
+}
+
+/* Mobile (Portrait) */
+
+@media only screen and (max-width: 767px) {
+.container { width:300px; }
+}
+
+/* Mobile (Landscape) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container { width:420px; }
+}
+
+
+/* CSS Reset
+================================================== */
+
+html,body,div,span,h1,h6,p,a,ul,li,audio {
+border:0;
+font:inherit;
+font-size:100%;
+margin:0;
+padding:0;
+vertical-align:baseline;
+}
+
+body { line-height:1; }
+ul { list-style:none; }
+
+
+/* Basic Styles
+================================================== */
+
+html,body {
+-webkit-font-smoothing:antialiased;
+-webkit-text-size-adjust:100%;
+background-color:#111;
+color:#C8C7C8;
+font:20px/24px "Yanone Kaffeesatz", HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-weight:300;
+padding:5px 100 0;
+}
+
+* {
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+-webkit-tap-highlight-color:transparent;
+}
+
+
+/* Typography
+================================================== */
+
+h1,p { color:#ffffff; font-weight:200; }
+h1 { font-size:42px; line-height:44px; margin:20px 0 0; }
+p { font-size:18px; line-height:20px; margin:0 0 2px; }
+
+
+/* Misc.
+================================================== */
+
+.add-bottom { margin-bottom:20px !important; }
+.left { float:left; }
+.right { float:right; }
+.center { text-align:center; }
+
+
+/* Highlight Styles
+================================================== */
+
+::selection { background-color:#262223; color:#444; }
+
+/* Audio Player Styles
+================================================== */
+
+audio { margin:0 14px 0 12px; width:670px; }
+#mainwrap { margin-top:20px; box-shadow:0 0 6px 1px rgba(0,0,0,.25);  padding:0 0 21px 5px}
+#audiowrap { background-color:#231F20; margin:0 auto; }
+#plwrap { margin:0 auto; }
+#tracks { position:relative; text-align:center; }
+#nowPlay { display:inline; }
+#npTitle { margin:0; padding:21px; text-align:right; }
+#npAction { padding:21px; position:absolute; }
+#plList { margin:0; }
+#plList li { background-color:#231F20; cursor:pointer; display:block; margin:0; padding:21px 0; }
+#plList li:hover { background-color:#262223; }
+.plItem { position:relative; }
+.plTitle { left:50px; overflow:hidden; position:absolute; right:65px; text-overflow:ellipsis; top:0; white-space:nowrap; }
+.plNum { padding-left:21px; width:25px; }
+.plLength { padding-left:21px; position:absolute; right:21px; top:0; }
+.plSel,.plSel:hover { background-color:#262223!important; cursor:default!important; }
+a[id^="btn"] { background-color:#231F20; color:#C8C7C8; cursor:pointer; display:inline-block; font-size:50px; margin:0; padding:21px 27px; text-decoration:none; }
+a[id^="btn"]:last-child { margin-left:-4px; }
+a[id^="btn"]:hover,a[id^="btn"]:active { background-color:#262223; }
+a[id^="btn"]::-moz-focus-inner { border:0; padding:0; }
